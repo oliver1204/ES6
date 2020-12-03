@@ -1,5 +1,5 @@
 function deepClone(value, hash = new WeakMap) {
-  if(value == null) return value;
+  if(value == null) return value; // 如果为null或者undefined 则返回value本身
   if(typeof value !== 'object') return value; // 数据类型 + 函数类型
   if(value instanceof RegExp) return new RegExp(value);
   if(value instanceof Date) return new Date(value);
