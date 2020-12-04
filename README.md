@@ -185,9 +185,11 @@ class Animal {
 
   }
 
-  get sleep() { // 公共属性
-
+  get sleep() { // 公共属性 es6写法
+    return 1
   }
+  
+  get sleep = 1 // es7写法 
 
   static get sleep() { // 实例属性
 
