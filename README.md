@@ -324,7 +324,7 @@ function create(parentPrototype) {
 
 ES6 的 `class a extends Animal {} `中的extends就是 Animal.call() + Object.create(Animal)
 
-new 关关键字的原理也是 继承。(https://juejin.cn/post/6844903789070123021)[重新认识new]
+new 关关键字的原理也是 继承。 [重新认识new](https://juejin.cn/post/6844903789070123021) 
 
 ## 8. 箭头函数（三无）
 箭头函数是没有this, 没有arguments（需要arguments可以...args）, 没有prototype.
